@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding:0;
+  border: 0;
+}
+body{
+  background: #D9E8F5;
+  color: #886842;
+}
+h1{
+  text-align: center;
+  font-size: 300%;
+  margin-top: 2%;
+}
+li {
+  list-style: none;
+  font-size: 500%;
+  text-align: center;
+}
+li:hover {
+  cursor: default;
+}
+button {
+  font-size: 140%;
+  background: #F26101;
+  border-radius: 2%;
+}
+.outer-container{
+  position: relative;
+  width: 360px;
+  height: 320px;
+  background: #304269;
+  margin: 10% auto;
+  padding: 10px;
+  border-radius: 2%;
+}
+.game-container{
+  position: relative;
+  width: 300px;
+  height: 280px;
+  background: #91BED4;
+  padding: 30px;
+  margin: 10px auto;
+}
+.one-third {
+  display: inline-block;
+  width: 30%;
+}
+.player-score {
+  border-right: 3px solid black;
+  text-align: right;
+  padding-right: 10px;
+}
+.computer-score {
+  text-align: left;
+  padding-left: 10px;
+}
+.clearfix{
+  clear: both;
+}
+li[id="1"], li[id="2"], li[id="4"], li[id="5"], li[id="7"], li[id="8"] {
+  border-right: 10px solid black;
+  width: 100%;
+}
+li[id="1"],li[id="2"], li[id="3"], li[id="4"], li[id="5"], li[id="6"] {
+  border-bottom: 10px solid black;
+  width: 100%;
+}
+span.open {
+  visibility: collapse;
+}
